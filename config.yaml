@@ -1,0 +1,38 @@
+title: Katy Martinez
+baseURL: https://example.com
+languageCode: en-us
+theme: gohugo-theme-ananke
+resourceDir: ../resources
+DefaultContentLanguage: en
+SectionPagesMenu: main
+Paginate: 3
+googleAnalytics: ''
+enableRobotsTXT: yes
+languages:
+  en:
+    contentDir: content/en
+    title: Katy Martinez
+    weight: 1
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+params:
+  ananke_socials:
+    - name: twitter
+      url: https://twitter.com/kmart1885
+      color: '#6aa84f'
+    - name: github
+      url: https://github.com/kaitlynm4765
+      color: '#639daa'
+    - name: linkedin
+      url: https://www.linkedin.com/in/kaitlyn-martinez-69227534/
+      color: '#a64d79'
+  author: ''
+  background_color_class: bg-dark-gray
+  body_classes: "helvetica bg-light-gray"
+  description: Computational Biology and Data Analytics
+  favicon: ''
+  recent_posts_number: 1
+  site_logo: ''
+  text_color: ''
