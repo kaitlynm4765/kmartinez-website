@@ -1,10 +1,11 @@
-baseURL: https://example.com
+baseURL: "/"
 languageCode: en-us
 title: Yourfolio Theme
 theme: "yourfolio"
 disableKinds: [RSS, taxonomy, taxonomyTerm]
 googleAnalytics: UA-XXXXX-Y
-
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+    
 # Menu items
 menu:
   main:
@@ -20,4 +21,13 @@ params:
   env: development
   logoImage: img/logo.png
   logoImageAlt: Yourfolio Theme brand logo
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+
+
 
